@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="RealEstateApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Real Estate</title>
+    <script src="vendors/angular/angular.js"></script>
+    <script src="vendors/angular-route/angular-route.js"></script>
+    <script src="/scripts/client.js"></script>
+    <script src="/scripts/controllers/listings.controller.js"></script>
+    <script src="/scripts/controllers/rentals.controller.js"></script>    
+    <script src="/scripts/controllers/home.controller.js"></script>
+    <script src="/scripts/controllers/addListing.controller.js"></script>
+    <script src="/scripts/controllers/addRental.controller.js"></script>
+    <script src="/scripts/services/listings.service.js"></script>
+    <script src="/scripts/services/rentals.service.js"></script>
+    <script src="/scripts/services/addListing.service.js"></script>
+    <script src="/scripts/services/addRental.service.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="/vendors/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+        <h1 class="jumbotron">Real Estate Listings</h1>
+        <div class="container-fluid" id="navBar">
+            <ul class="nav navbar-nav">
+    <li><a href="#!">Home</a></li>
+    <li><a href="#!/listings">Listings</a></li>
+    <li><a href="#!/rentals">Rentals</a></li>
+     <li><a href="#!/addListing">Add a Listing</a></li>
+     <li><a href="#!/addRental">Add a Rental</a></li>
+</ul>
+            </div>
+
+
+    
+    <ng-view></ng-view>
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+
+#navBar {
+    background-color: thistle;
+}
+
+li {
+    display: inline;
+}
+
+.listings{
+    background-color: teal;
+    margin: 10px;
+    padding: 10px;
+}
+
+.rentals{
+    background-color: teal;
+    margin: 10px;
+    padding: 10px;
+}

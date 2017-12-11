@@ -1,0 +1,17 @@
+<h1>Listings View</h1>
+
+<div>
+        <h2>For Sale</h2>
+        
+        <ul ng-repeat="listing in vm.listings.list">
+                <div class = 'listings'>
+            <li>Cost: {{listing.cost}}</li>
+            <li>Square Feet: {{listing.sqft}}</li>
+            <li>City: {{listing.city}}</li>
+        </div>
+        </ul>
+        
+    </div>
+    	
+
+<!-- {{vm.listings.list}} -->

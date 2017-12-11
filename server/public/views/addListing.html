@@ -1,0 +1,12 @@
+<h1>Add Listing</h1>
+
+<div>
+        <div>
+        
+            <input type="text" ng-model="vm.newListing.cost" id="cost" placeholder="Cost" />
+            <input type="text" ng-model="vm.newListing.sqft" id="sqft" placeholder="Square feet" />
+            <input type="text" ng-model="vm.newListing.city" id="city" placeholder="City" />
+            <button ng-click="vm.addListing(vm.newListing)" class="btn btn-primary">Add Listing</button>
+        </div>
+    {{vm.newListing}}
+    </div>
