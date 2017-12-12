@@ -29,7 +29,7 @@ Link to software that is required before you attempt to start the app (e.g. node
 1. Download this project.
 2. `npm install`
 3. `npm start`
-4. `open localhost:5000 in browser`
+4. open `localhost:5000` in browser
 
 ## Authors
 
