@@ -6,14 +6,14 @@ var listings = require('./routes/listings')
 
 var rentals = require('./routes/rentals')
 
-var mongooseConnection = require('./modules/mongoose.connection');
+var mongooseConnection = require('./modules/db.js');
 
 
 app.use(bodyparser.json());
 
 app.use(express.static('server/public'));
 
-mongooseConnection.connect();
+// mongooseConnection.connect();
 
 
 app.use('/listings', listings);
