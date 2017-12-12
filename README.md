@@ -21,7 +21,7 @@ These instructions will get you a copy of the project up and running on your loc
 Link to software that is required before you attempt to start the app (e.g. node, mongo).
 
 - [Node.js](https://nodejs.org/en/)
-- [mongoDB] (https://www.mongodb.com/)
+- [mongoDB](https://www.mongodb.com/)
 
 
 ### Installing
