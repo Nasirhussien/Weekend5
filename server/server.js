@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var bodyparser = require('body-parser')
-var port = 5000
+var port = process.env.PORT || 5000
 var listings = require('./routes/listings')
 
 var rentals = require('./routes/rentals')
